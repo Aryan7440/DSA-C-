@@ -1,0 +1,43 @@
+# Ignore all .exe files
+*.exe
+
+# Ignore all .o files (object files)
+*.o
+
+# Ignore all .a files (static libraries)
+*.a
+
+# Ignore all .so files (shared libraries)
+*.so
+
+# Ignore all .out files (output files)
+*.out
+
+# Ignore all .cph files
+*.cph
+
+# Ignore the .vscode folder
+.vscode/
+
+# Ignore build directories
+build/
+cmake-build-*/
+
+# Ignore compiled dynamic libraries
+*.dll
+*.dylib
+
+# Ignore compiled static libraries
+*.lib
+
+# Ignore compiled object files
+*.obj
+
+# Ignore debug files
+*.pdb
+
+# Ignore CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
